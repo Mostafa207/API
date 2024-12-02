@@ -28,7 +28,9 @@ namespace API.Models
         [StringLength(3, MinimumLength = 3, ErrorMessage = "CVV must be 3 digits.")]
         [RegularExpression(@"^\d{3}$", ErrorMessage = "CVV must contain exactly 3 digits.")]
         public string CVV { get; set; }
-        public List<Prodect> prodects { get; set; }
+        public int usersId { get; set; }
+        public Users users { get; set; }
+
 
     }
 }

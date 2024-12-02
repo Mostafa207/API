@@ -18,10 +18,6 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Repo\DetailsR\" />
-    <Folder Include="Repo\cardR\" />
-    <Folder Include="Repo\signupR\" />
-    <Folder Include="Repo\prodectR\" />
   </ItemGroup>
 
 </Project>
